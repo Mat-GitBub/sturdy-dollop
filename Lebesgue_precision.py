@@ -2,7 +2,7 @@ import mpmath as mp
 import numpy as np
 import matplotlib.pyplot as plt
 
-mp.mp.dps = 32  # set precision (digits)
+mp.mp.dps = 16  # set precision (digits)
 
 
 def chebyshev_points(n):
